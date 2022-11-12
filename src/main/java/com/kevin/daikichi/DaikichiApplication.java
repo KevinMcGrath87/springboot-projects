@@ -1,6 +1,6 @@
 package com.kevin.daikichi;
 
-import com.kevin.daikichi.controllers.*;
+import com.kevin.daikichi.controllers.Controller;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
