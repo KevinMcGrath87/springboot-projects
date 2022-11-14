@@ -14,12 +14,15 @@ pageEncoding = "UTF-8" import = "java.util.Date"%>
             <!-- put names of variables etc in this comment -->
             <div class="container text-center border-secondary">
             
-            <h1>Omikuji Form</h1>
-            	<p>
-            	you will:
+            <h1 >Omikuji Form</h1>
+            	<p class =" bg-primary">
+            	you will: move to
             	<c:out value = "${city}"></c:out>
+            	with someone named
             	<c:out value = "${person}"></c:out>
+            	and you'll work as
             	<c:out value = "${hobby}"></c:out>
+            	because you have
             	<c:out value = "${compliment}"></c:out>
             	</p>>
             
