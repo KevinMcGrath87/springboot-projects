@@ -16,16 +16,16 @@ pageEncoding = "UTF-8" import = "java.util.Date"%>
             
             <h1>Omikuji Form</h1>
             
-            	<form class = "form" action="/omikuji/fortuneTell" method = "post">
-            		<label>enter the name of a city:</label>
-            		<input type ="text" name = "city">
-            		<label>enter the name of a person:</label>
-            		<input type ="text" name = "person">
-            		<label>enter the name of a hobby:</label>
-            		<input type ="text" name = "hobby">
-            		<label>enter a compliment for yourself:</label>
-            		<input type = "text" name = "compliment">
-            		<button class = "button" type ="submit" value = "submit form"></button>
+            	<form action="/omikuji/fortuneTell" method = "post">
+            		<label class ="form-label">enter the name of a city:</label>
+            		<input class = "form-control" type ="text" name = "city">
+            		<label class = "form-label">enter the name of a person:</label>
+            		<input class = "form-control" type ="text" name = "person">
+            		<label class = "form-label">enter the name of a hobby:</label>
+            		<input class = "form-control" type ="text" name = "hobby">
+            		<label class = "form-label">enter a compliment for yourself:</label>
+            		<input class = "form-control" type = "text" name = "compliment">
+            		<button class = "btn btn-secondary" type ="submit" value = "submit form"></button>
             	</form>
        
             </div>
