@@ -16,7 +16,7 @@ pageEncoding = "UTF-8" import = "java.util.Date"%>
             
             <h1>Omikuji Form</h1>
             
-            	<form class = "form" action="/fortuneTell" method = "post">
+            	<form class = "form" action="/omikuji/fortuneTell" method = "post">
             		<label>enter the name of a city:</label>
             		<input type ="text" name = "city">
             		<label>enter the name of a person:</label>

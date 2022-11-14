@@ -25,6 +25,8 @@ pageEncoding = "UTF-8" import = "java.util.Date"%>
             	because you have
             	<c:out value = "${compliment}"></c:out>
             	</p>>
+            	
+            	<a href = "/form"></a>
             
        
        

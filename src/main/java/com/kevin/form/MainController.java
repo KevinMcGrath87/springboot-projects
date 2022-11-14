@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
-@RequestMapping
+@RequestMapping("/omikuji")
 public class MainController {
 	
-	@RequestMapping("/")
+	@RequestMapping("/form")
 		public String welcome(){
 			return "form.jsp";
 		
@@ -36,7 +36,7 @@ public class MainController {
 		
 		
 		
-		return "redirect:/fortune";
+		return "redirect:/omikuji/fortune";
 		
 	}
 	@RequestMapping("/fortune")
